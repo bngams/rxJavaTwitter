@@ -15,7 +15,6 @@ public class TwitterStreamConnector {
                 .setOAuthConsumerSecret("Ev5WYewGBVxsifkssQhPksALH8TziVWRne77v8JdztYBsoVTFF")
                 .setOAuthAccessToken("67405530-OXaOyQHZTRnXW7dBdVMLf2XyONV7SDe6uq2gOVsQz")
                 .setOAuthAccessTokenSecret("nE7lkhsgbR97gkW1FZrrHNfZp4uI4ByeEW88mA8JCPgr6");
-        TwitterFactory tf = new TwitterFactory(cb.build());
         twitterStream = new TwitterStreamFactory(cb.build()).getInstance();
     }
 
